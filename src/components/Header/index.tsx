@@ -11,7 +11,7 @@ export const Header = () => {
                         ariaLabel="Home"
                     >
                         <p className="font-semibold text-xl text-left tracking-tight">
-                            Notion Time Machine
+                            Airtable Time Machine
                         </p>
                     </ButtonUnstyled>
                 </div>

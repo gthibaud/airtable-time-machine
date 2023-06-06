@@ -26,7 +26,7 @@ const Subscribe = () => {
                     <Columns columnsNumber={2}>
                         <div className="flex flex-col flex-1 gap-4">
                             <Body>
-                                You will be notified as soon by our team to access Notion Time
+                                You will be notified as soon by our team to access Airtable Time
                                 Machine.
                                 <br />
                                 See you soon!
@@ -56,10 +56,10 @@ export default Subscribe;
 export const Head = () => (
     <>
         <html lang="en" />
-        <title>Notion Time Machine – See you soon</title>
+        <title>Airtable Time Machine – See you soon</title>
         <meta
             name="description"
-            content="Notion time Machine backup your Notion workspaces automatically to secure things that matter."
+            content="Airtable time Machine backup your Airtable workspaces automatically to secure things that matter."
         />
         <meta charSet="utf-8" />
     </>

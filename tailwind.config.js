@@ -17,7 +17,7 @@ module.exports = {
                 paletteBlue: '#2D7FF9',
                 paletteYellow: '#E08D00',
                 paletteGreen: '#11AF22',
-                surfaceSecondary: '#F4F3F2',
+                surfaceSecondary: '#F9FAFB',
                 surfacePrimary: '#FFFFFF',
                 strokePrimary: '#E0E0E1',
             },

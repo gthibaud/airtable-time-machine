@@ -16,19 +16,16 @@ type PlanProps = {
 
 export const Plan = ({ image, title, description, price, to }: PlanProps) => {
     return (
-        <TiltingContainer className="caaaard flex-1 rounded-lg bg-surfaceSecondary">
+        <TiltingContainer className="flex-1 rounded-lg bg-surfaceSecondary border-strokePrimary border-2">
             <Link
                 to={to}
-                className="caaaard-content rounded-lg flex flex-1 flex-col items-center gap-4 text-center  p-8 pb-6"
+                className="rounded-lg flex flex-1 flex-col items-center gap-4 text-center  p-8 pb-6"
             >
                 <CardTitle>{title}</CardTitle>
                 {image}
                 <Body>{description}</Body>
                 <CardTitle>{price}</CardTitle>
-                <Button
-                    className="w-full bg-paletteBlue rounded-lg"
-                    to={to}
-                >
+                <Button className="w-full bg-paletteBlue rounded-lg">
                     <span>
                         Get Started
                         <ArrowRight className="fill-surfacePrimary mb-1" />

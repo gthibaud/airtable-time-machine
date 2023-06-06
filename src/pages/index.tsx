@@ -26,10 +26,10 @@ const Main = () => {
         <div className="flex flex-col align-center">
             <Header />
             <MainContainer>
-                <BigTitle>Making your Notion data safe</BigTitle>
+                <BigTitle>Making your Airtable data safe</BigTitle>
                 <SubTitle>
                     <span>
-                        We backup your Notion workspaces
+                        We backup your Airtable workspaces
                         <br />
                         to secure things that matter
                         <Sparkles className="fill-palettePurple" />
@@ -40,7 +40,7 @@ const Main = () => {
                         <StaticImage
                             className="max-w-screen-lg"
                             src="../../static/images/desktop.png"
-                            alt="Desktop Klipse interface."
+                            alt="Desktop Airtable interface."
                         />
                     </TiltingContainer>
                 </div>
@@ -51,7 +51,7 @@ const Main = () => {
                     </span>
                 </SectionTitle>
                 <SubTitle>
-                    Would you be able to keep your business running if you lost access to Notion
+                    Would you be able to keep your business running if you lost access to Airtable
                     tomorrow morning?
                 </SubTitle>
                 <CardSection>
@@ -66,7 +66,7 @@ const Main = () => {
                             />
                         }
                         title="Crucial data"
-                        description="Your best ideas are stored in Notion, perhaps even your customers, contracts, strategy."
+                        description="Your most important data are stored in Airtable: customers, activity, strategy, etc."
                     />
                     <Problem
                         image={
@@ -91,13 +91,13 @@ const Main = () => {
                                 backgroundColor={BACKGROUND_DEFAULT}
                             />
                         }
-                        title="Don’t depend on Notion"
-                        description="Don't let your business, your studies or your life depend on Notion, mitigate the risk."
+                        title="Don’t depend on Airtable"
+                        description="Don't let your business, your studies or your life depend on Airtable, mitigate the risk."
                     />
                 </CardSection>
                 <SectionTitle>
                     <span>
-                        We backup every block in a secure vault
+                        We backup every piece of data in a secure vault
                         <LockDesktop className="fill-paletteBlue" />
                     </span>
                 </SectionTitle>
@@ -115,9 +115,9 @@ const Main = () => {
                     title="Automated backups, simple as that"
                     description={
                         <>
-                            Connect your workspace to Notion Time Machine and that's it! We'll take
-                            care of backing up all your data at regular intervals, and alert you if
-                            an error occurs.
+                            Connect your workspaces to Airtable Time Machine and that's it! We'll
+                            take care of backing up all your data at regular intervals, and alert
+                            you if an error occurs.
                         </>
                     }
                 />
@@ -133,7 +133,7 @@ const Main = () => {
                         />
                     }
                     title="High-level safety and resilience "
-                    description="Notion Time Machine encrypts all backups and exchanges between Notion APIs and our system. We offer AES-256 encryption for all backups, making it impossible for us to decrypt them, even by us."
+                    description="Airtable Time Machine encrypts all backups and exchanges between Airtable APIs and our system. We offer AES-256 encryption for all backups, making it impossible for us to decrypt them, even by us."
                     inversedDirection
                 />
                 <Feature
@@ -169,7 +169,7 @@ const Main = () => {
                             />
                         }
                         description="Ideal for individuals, students, or families that want to stay zen"
-                        price="2$ / month"
+                        price="from 5$ / month"
                     />
                     <Plan
                         to="/#download"
@@ -183,7 +183,7 @@ const Main = () => {
                             />
                         }
                         description="Ideal for startups who take care of their data on a limited budget"
-                        price="5$ / month"
+                        price="from 8$ / month"
                     />
                     <Plan
                         to="/#download"
@@ -197,7 +197,7 @@ const Main = () => {
                             />
                         }
                         description="Ideal for SME that must guarantee high levels of service"
-                        price="10$ / month"
+                        price="from 20$ / month"
                     />
                 </PlanSection>
                 <ButtonUnstyled
@@ -213,7 +213,7 @@ const Main = () => {
                 </ButtonUnstyled>
                 <SectionTitle>
                     <span id="download">
-                        Join Notion Time Machine beta!
+                        Join Airtable Time Machine beta!
                         <Sparkles className="fill-palettePurple" />
                     </span>
                 </SectionTitle>
@@ -221,7 +221,7 @@ const Main = () => {
                     <Columns columnsNumber={2}>
                         <div className="flex flex-col flex-1 gap-4">
                             <Body>
-                                Be the first to benefit from access to Notion Time Machine by
+                                Be the first to benefit from access to Airtable Time Machine by
                                 joining the waiting list.
                             </Body>
                             <EmailForm />
@@ -247,7 +247,7 @@ const Main = () => {
                 </SectionTitle>
                 <FAQ
                     question="Can I save the backups on my own storage?"
-                    answer="Backup to your own storage will be available in autumn 2023. We plan to make it possible to export data to Google Drive. In the meantime, you should know that Notion Time Machine hosts your data in a fully encrypted (AES 256) manner, making all your data unreadable, even by us."
+                    answer="Backup to your own storage will be available in autumn 2023. We plan to make it possible to export data to Google Drive. In the meantime, you should know that Airtable Time Machine hosts your data in a fully encrypted (AES 256) manner, making all your data unreadable, even by us."
                 />
                 <FAQ
                     question="Where are backups hosted?"
@@ -255,13 +255,13 @@ const Main = () => {
                 />
                 <FAQ
                     question="Is there any limit on the number of backups?"
-                    answer="No, Notion Time Machine does not limit the number of backups. You can keep as many backups as you want, for as long as you want. We will soon offer the possibility to define a retention policy to automatically delete backups after a certain period of time."
+                    answer="No, Airtable Time Machine does not limit the number of backups. You can keep as many backups as you want, for as long as you want. We will soon offer the possibility to define a retention policy to automatically delete backups after a certain period of time."
                 />
                 <FAQ
                     question="Who's behind the project?"
                     answer={
                         <>
-                            Notion Time Machine is developed by Creastel Labs, a project led by
+                            Airtable Time Machine is developed by Creastel Labs, a project led by
                             Grégoire Thibaud and Jean Haberer. Don't hesitate to{' '}
                             <u>
                                 <a href="mailto:gregoire@creastel.com">contact</a>
@@ -283,10 +283,10 @@ export default Main;
 export const Head = () => (
     <>
         <html lang="en" />
-        <title>Notion Time Machine – Making your Notion data safe</title>
+        <title>Airtable Time Machine – Making your Airtable data safe</title>
         <meta
             name="description"
-            content="Notion time Machine backup your Notion workspaces automatically to secure things that matter."
+            content="Airtable time Machine backup your Airtable workspaces automatically to secure things that matter."
         />
         <meta charSet="utf-8" />
     </>

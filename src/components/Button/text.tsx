@@ -8,8 +8,8 @@ type ButtonProps = {
     className?: string;
 };
 
-export const Button = ({ children, to = '/', className = '' }: ButtonProps) => {
-    return (
+export const Button = ({ children, to, className = '' }: ButtonProps) => {
+    return to ? (
         <TiltingContainer className={className}>
             <Link to={to}>
                 <button
@@ -18,6 +18,14 @@ export const Button = ({ children, to = '/', className = '' }: ButtonProps) => {
                     {children}
                 </button>
             </Link>
+        </TiltingContainer>
+    ) : (
+        <TiltingContainer className={className}>
+            <button
+                className={`font-medium text-white px-3 py-2 transition-colors duration-300 ease-in-out ${className}`}
+            >
+                {children}
+            </button>
         </TiltingContainer>
     );
 };
