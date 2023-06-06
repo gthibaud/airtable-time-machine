@@ -18,7 +18,7 @@ export const Header = () => {
                 <div className="flex justify-end shrink-0">
                     <Button
                         to="/#download"
-                        className="bg-textBody hover:bg-textBody rounded-md"
+                        className="bg-paletteBlue hover:bg-palettePurple rounded-md"
                     >
                         Join the beta
                     </Button>
